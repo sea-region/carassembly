@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'rm -rf build' //This is testing//
+                sh 'rm -rf build' //This is testing
                 sh 'mkdir build'
                 sh 'touch build/car.txt'
                 sh 'echo "chassic" > build/car.txt'
